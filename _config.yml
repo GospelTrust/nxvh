@@ -1,0 +1,61 @@
+theme: askclass-course-theme
+
+title: "Ngắm xem vinh hiển"
+description: >
+  Khám phá loạt bài giảng 'Ngắm Xem Vinh Hiển' – Hành trình 52 tuần giải kinh sâu sắc về Phúc Âm Giăng. Cùng chiêm ngưỡng vẻ đẹp của Đấng Christ để tìm thấy đức tin, hy vọng và sự sống đời đời trong Ngôi Lời nhập thể.
+
+acc:
+  short_name: "Giăng"
+  color:
+    theme: "#28170b"
+    bg: "#f4e3d7"
+  url: "https://nxvh.nissi.app"
+  categories:
+    - education
+  shortcuts:
+    - name: Title
+      url: https://nxvh.nissi.app/session/title
+      desc: Title
+  meta:
+    apple_icon: "logo-square-300.png"
+    og_image: "logo-square-512.png"
+    shortcut:
+      favicon: "favicon.ico"
+      type: "image/png"
+      image: "logo-96.png"
+    keywords: >
+      education,
+      learning,
+      christianity
+  footer:
+    - icon: "info_i"
+      href: "/session/title"
+      text: "Title"
+  font_families:
+    - Roboto
+    - Imbue
+    - Inconsolata
+    - Reem+Kufi
+    - Lexend
+    - Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200
+
+collections_dir: content
+collections:
+  session:
+    output: true
+  segment:
+    output: true
+
+defaults:
+  - scope:
+      path: "*.html"
+    values:
+      layout: "default"
+  - scope:
+      type: "session"
+    values:
+      layout: "session"
+  - scope:
+      type: "segment"
+    values:
+      layout: "segment"

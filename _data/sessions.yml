@@ -1,0 +1,529 @@
+title:
+  header: 'Title'
+  title: 'Ngắm xem vinh hiển'
+  url: 'title'
+
+w-1:
+  header: 'Tuần 1'
+  segment: 'group-01'
+  title: 'Cái chén & thanh gươm'
+  icon: web_stories
+  sequence: 1
+  part: 'Giăng 18:1-27'
+  url: 'w-1'
+  due: 2026-03-15
+  verse: '18:11'
+  speaker: 'Phạm Đức Khôi Nguyên'
+  images:
+    - src: https://i.ytimg.com/vi/9h9LS_DYLMQ/maxresdefault.jpg
+      desc: Cái chén và thanh gươm
+
+w-2:
+  header: 'Tuần 2'
+  segment: 'group-01'
+  title: 'Đức Chúa Jêsus trước mặt Phi-lát'
+  icon: web_stories
+  sequence: 2
+  part: 'Giăng 18:28-19:16'
+  url: 'w-2'
+  due: 2026-03-22
+
+w-3:
+  header: 'Tuần 3'
+  segment: 'group-01'
+  title: 'Sự đóng đinh và chôn cất'
+  icon: web_stories
+  sequence: 3
+  part: 'Giăng 19:17-42'
+  url: 'w-3'
+  due: 2026-03-29
+
+w-4:
+  header: 'Tuần 4'
+  segment: 'group-01'
+  title: 'Sự phục sinh và hiện ra cho Ma-ri'
+  icon: web_stories
+  sequence: 4
+  part: 'Giăng 20:1-18'
+  url: 'w-4'
+  due: 2026-04-05
+
+w-5:
+  header: 'Tuần 5'
+  segment: 'group-01'
+  title: 'Hiện ra cho các môn đồ và Thô-ma'
+  icon: web_stories
+  sequence: 5
+  part: 'Giăng 20:19-31'
+  url: 'w-5'
+  due: 2026-04-12
+
+w-6:
+  header: 'Tuần 6'
+  segment: 'group-01'
+  title: 'Đánh lưới tại biển Ti-bê-ri-át'
+  icon: web_stories
+  sequence: 6
+  part: 'Giăng 21:1-14'
+  url: 'w-6'
+  due: 2026-04-19
+
+w-7:
+  header: 'Tuần 7'
+  segment: 'group-01'
+  title: 'Sự phục chức cho Phi-e-rơ'
+  icon: web_stories
+  sequence: 7
+  part: 'Giăng 21:15-25'
+  url: 'w-7'
+  due: 2026-04-26
+
+w-8:
+  header: 'Tuần 8'
+  segment: 'group-02'
+  title: 'Đức Chúa Jêsus rửa chân cho môn đồ'
+  icon: web_stories
+  sequence: 8
+  part: 'Giăng 13:1-17'
+  url: 'w-8'
+  due: 2026-05-03
+
+w-9:
+  header: 'Tuần 9'
+  segment: 'group-02'
+  title: 'Sự phản bội và điều răn mới'
+  icon: web_stories
+  sequence: 9
+  part: 'Giăng 13:18-38'
+  url: 'w-9'
+  due: 2026-05-10
+
+w-10:
+  header: 'Tuần 10'
+  segment: 'group-02'
+  title: 'Đường đi, lẽ thật và sự sống'
+  icon: web_stories
+  sequence: 10
+  part: 'Giăng 14:1-14'
+  url: 'w-10'
+  due: 2026-05-17
+
+w-11:
+  header: 'Tuần 11'
+  segment: 'group-02'
+  title: 'Lời hứa về Đấng Yên ủi'
+  icon: web_stories
+  sequence: 11
+  part: 'Giăng 14:15-31'
+  url: 'w-11'
+  due: 2026-05-24
+
+w-12:
+  header: 'Tuần 12'
+  segment: 'group-02'
+  title: 'Gốc nho và nhánh'
+  icon: web_stories
+  sequence: 12
+  part: 'Giăng 15:1-11'
+  url: 'w-12'
+  due: 2026-05-31
+
+w-13:
+  header: 'Tuần 13'
+  segment: 'group-02'
+  title: 'Tình bạn và sự bắt bớ'
+  icon: web_stories
+  sequence: 13
+  part: 'Giăng 15:12-27'
+  url: 'w-13'
+  due: 2026-06-07
+
+w-14:
+  header: 'Tuần 14'
+  segment: 'group-02'
+  title: 'Công việc của Thánh Linh'
+  icon: web_stories
+  sequence: 14
+  part: 'Giăng 16:1-15'
+  url: 'w-14'
+  due: 2026-06-14
+
+w-15:
+  header: 'Tuần 15'
+  segment: 'group-02'
+  title: 'Nỗi buồn hóa ra vui mừng'
+  icon: web_stories
+  sequence: 15
+  part: 'Giăng 16:16-33'
+  url: 'w-15'
+  due: 2026-06-21
+
+w-16:
+  header: 'Tuần 16'
+  segment: 'group-03'
+  title: 'Ngôi Lời thành xác thịt'
+  icon: web_stories
+  sequence: 16
+  part: 'Giăng 1:1-18'
+  url: 'w-16'
+  due: 2026-07-05
+
+w-17:
+  header: 'Tuần 17'
+  segment: 'group-03'
+  title: 'Lời chứng của Giăng Báp-tít'
+  icon: web_stories
+  sequence: 17
+  part: 'Giăng 1:19-34'
+  url: 'w-17'
+  due: 2026-07-12
+
+w-18:
+  header: 'Tuần 18'
+  segment: 'group-03'
+  title: 'Các môn đồ đầu tiên'
+  icon: web_stories
+  sequence: 18
+  part: 'Giăng 1:35-51'
+  url: 'w-18'
+  due: 2026-07-19
+
+w-19:
+  header: 'Tuần 19'
+  segment: 'group-03'
+  title: 'Tiệc cưới tại Ca-na'
+  icon: web_stories
+  sequence: 19
+  part: 'Giăng 2:1-12'
+  url: 'w-19'
+  due: 2026-07-26
+
+w-20:
+  header: 'Tuần 20'
+  segment: 'group-03'
+  title: 'Làm sạch đền thờ'
+  icon: web_stories
+  sequence: 20
+  part: 'Giăng 2:13-25'
+  url: 'w-20'
+  due: 2026-08-02
+
+w-21:
+  header: 'Tuần 21'
+  segment: 'group-04'
+  title: 'Cuộc trò chuyện với Ni-cô-đem'
+  icon: web_stories
+  sequence: 21
+  part: 'Giăng 3:1-21'
+  url: 'w-21'
+  due: 2026-08-16
+
+w-22:
+  header: 'Tuần 22'
+  segment: 'group-04'
+  title: 'Lời chứng cuối của Giăng'
+  icon: web_stories
+  sequence: 22
+  part: 'Giăng 3:22-36'
+  url: 'w-22'
+  due: 2026-08-23
+
+w-23:
+  header: 'Tuần 23'
+  segment: 'group-04'
+  title: 'Người đàn bà Sa-ma-ri'
+  icon: web_stories
+  sequence: 23
+  part: 'Giăng 4:1-26'
+  url: 'w-23'
+  due: 2026-08-30
+
+w-24:
+  header: 'Tuần 24'
+  segment: 'group-04'
+  title: 'Cánh đồng chín vàng'
+  icon: web_stories
+  sequence: 24
+  part: 'Giăng 4:27-42'
+  url: 'w-24'
+  due: 2026-09-06
+
+w-25:
+  header: 'Tuần 25'
+  segment: 'group-04'
+  title: 'Chữa lành con quan thị vệ'
+  icon: web_stories
+  sequence: 25
+  part: 'Giăng 4:43-54'
+  url: 'w-25'
+  due: 2026-09-13
+
+w-26:
+  header: 'Tuần 26'
+  segment: 'group-04'
+  title: 'Người đau liệt tại Bết-ê-đa'
+  icon: web_stories
+  sequence: 26
+  part: 'Giăng 5:1-18'
+  url: 'w-26'
+  due: 2026-09-20
+
+w-27:
+  header: 'Tuần 27'
+  segment: 'group-04'
+  title: 'Quyền năng của Con'
+  icon: web_stories
+  sequence: 27
+  part: 'Giăng 5:19-47'
+  url: 'w-27'
+  due: 2026-09-27
+
+w-28:
+  header: 'Tuần 28'
+  segment: 'group-05'
+  title: 'Hóa bánh cho năm ngàn người'
+  icon: web_stories
+  sequence: 28
+  part: 'Giăng 6:1-21'
+  url: 'w-28'
+  due: 2026-10-04
+
+w-29:
+  header: 'Tuần 29'
+  segment: 'group-05'
+  title: 'Bánh hằng sống từ trời'
+  icon: web_stories
+  sequence: 29
+  part: 'Giăng 6:22-40'
+  url: 'w-29'
+  due: 2026-10-11
+
+w-30:
+  header: 'Tuần 30'
+  segment: 'group-05'
+  title: 'Lời khó hiểu và sự lìa bỏ'
+  icon: web_stories
+  sequence: 30
+  part: 'Giăng 6:41-71'
+  url: 'w-30'
+  due: 2026-10-18
+
+w-31:
+  header: 'Tuần 31'
+  segment: 'group-05'
+  title: 'Đức Chúa Jêsus tại lễ Lều tạm'
+  icon: web_stories
+  sequence: 31
+  part: 'Giăng 7:1-24'
+  url: 'w-31'
+  due: 2026-10-25
+
+w-32:
+  header: 'Tuần 32'
+  segment: 'group-05'
+  title: 'Nguồn nước sống'
+  icon: web_stories
+  sequence: 32
+  part: 'Giăng 7:25-52'
+  url: 'w-32'
+  due: 2026-11-01
+
+w-33:
+  header: 'Tuần 33'
+  segment: 'group-05'
+  title: 'Người đàn bà ngoại tình'
+  icon: web_stories
+  sequence: 33
+  part: 'Giăng 7:53-8:11'
+  url: 'w-33'
+  due: 2026-11-08
+
+w-34:
+  header: 'Tuần 34'
+  segment: 'group-05'
+  title: 'Sự sáng của thế gian'
+  icon: web_stories
+  sequence: 34
+  part: 'Giăng 8:12-30'
+  url: 'w-34'
+  due: 2026-11-15
+
+w-35:
+  header: 'Tuần 35'
+  segment: 'group-05'
+  title: 'Tự do thật và nguồn gốc Abraham'
+  icon: web_stories
+  sequence: 35
+  part: 'Giăng 8:31-59'
+  url: 'w-35'
+  due: 2026-11-29
+
+w-36:
+  header: 'Tuần 36'
+  segment: 'group-06'
+  title: 'Chữa lành người mù bẩm sinh'
+  icon: web_stories
+  sequence: 36
+  part: 'Giăng 9:1-23'
+  url: 'w-36'
+  due: 2026-12-06
+
+w-37:
+  header: 'Tuần 37'
+  segment: 'group-06'
+  title: 'Sự mù lòa thuộc linh'
+  icon: web_stories
+  sequence: 37
+  part: 'Giăng 9:24-41'
+  url: 'w-37'
+  due: 2026-12-13
+
+w-38:
+  header: 'Tuần 38'
+  segment: 'group-06'
+  title: 'Người chăn hiền lành'
+  icon: web_stories
+  sequence: 38
+  part: 'Giăng 10:1-21'
+  url: 'w-38'
+  due: 2026-12-27
+
+w-39:
+  header: 'Tuần 39'
+  segment: 'group-06'
+  title: 'Sự hiệp nhất với Cha'
+  icon: web_stories
+  sequence: 39
+  part: 'Giăng 10:22-42'
+  url: 'w-39'
+  due: 2027-01-03
+
+w-40:
+  header: 'Tuần 40'
+  segment: 'group-06'
+  title: 'La-xa-rơ đau ốm và chết'
+  icon: web_stories
+  sequence: 40
+  part: 'Giăng 11:1-27'
+  url: 'w-40'
+  due: 2027-01-10
+
+w-41:
+  header: 'Tuần 41'
+  segment: 'group-06'
+  title: 'La-xa-rơ sống lại và mưu độc'
+  icon: web_stories
+  sequence: 41
+  part: 'Giăng 11:28-57'
+  url: 'w-41'
+  due: 2027-01-17
+
+w-42:
+  header: 'Tuần 42'
+  segment: 'group-06'
+  title: 'Xức dầu tại Bê-tha-ni'
+  icon: web_stories
+  sequence: 42
+  part: 'Giăng 12:1-11'
+  url: 'w-42'
+  due: 2027-01-24
+
+w-43:
+  header: 'Tuần 43'
+  segment: 'group-06'
+  title: 'Vào thành và hạt giống lúa mì'
+  icon: web_stories
+  sequence: 43
+  part: 'Giăng 12:12-26'
+  url: 'w-43'
+  due: 2027-01-31
+
+w-44:
+  header: 'Tuần 44'
+  segment: 'group-06'
+  title: 'Tiếng từ trời và sự không tin'
+  icon: web_stories
+  sequence: 44
+  part: 'Giăng 12:27-50'
+  url: 'w-44'
+  due: 2027-02-07
+
+w-45:
+  header: 'Tuần 45'
+  segment: 'group-07'
+  title: 'Lời cầu nguyện cho chính mình'
+  icon: web_stories
+  sequence: 45
+  part: 'Giăng 17:1-5'
+  url: 'w-45'
+  due: 2027-02-14
+
+w-46:
+  header: 'Tuần 46'
+  segment: 'group-07'
+  title: 'Lời cầu nguyện cho môn đồ'
+  icon: web_stories
+  sequence: 46
+  part: 'Giăng 17:6-13'
+  url: 'w-46'
+  due: 2027-02-21
+
+w-47:
+  header: 'Tuần 47'
+  segment: 'group-07'
+  title: 'Sự thánh hóa và sai đi'
+  icon: web_stories
+  sequence: 47
+  part: 'Giăng 17:14-19'
+  url: 'w-47'
+  due: 2027-02-28
+
+w-48:
+  header: 'Tuần 48'
+  segment: 'group-07'
+  title: 'Lời cầu nguyện cho sự hiệp nhất'
+  icon: web_stories
+  sequence: 48
+  part: 'Giăng 17:20-23'
+  url: 'w-48'
+  due: 2027-03-07
+
+w-49:
+  header: 'Tuần 49'
+  segment: 'group-07'
+  title: 'Lời cầu nguyện cho tình yêu'
+  icon: web_stories
+  sequence: 49
+  part: 'Giăng 17:24-26'
+  url: 'w-49'
+  due: 2027-03-14
+
+w-50:
+  header: 'Tuần 50'
+  segment: 'group-07'
+  title: 'Mục đích của sách Phúc âm'
+  icon: web_stories
+  sequence: 50
+  part: 'Giăng 20:30-31'
+  url: 'w-50'
+  due: 2027-03-21
+
+w-51:
+  header: 'Tuần 51'
+  segment: 'group-07'
+  title: 'Tổng kết các phép lạ và danh xưng'
+  icon: web_stories
+  sequence: 51
+  part: 'Giăng 1:1-21:25'
+  url: 'w-51'
+  due: 2027-03-28
+
+w-52:
+  header: 'Tuần 52'
+  segment: 'group-07'
+  title: 'Đại mạng lệnh và sự phục hồi'
+  icon: web_stories
+  sequence: 52
+  part: 'Giăng 21:15-25'
+  url: 'w-52'
+  due: 2027-04-04

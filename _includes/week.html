@@ -1,0 +1,12 @@
+{%- assign slug = page.path | split: "." | first | split: "/" | last %}
+{%- assign week = site.data.sessions[slug] %}
+{%- assign summary = site.data.summary[slug].summary %}
+
+<sub>{{ week.part }}</sub>
+<h4>{{ week.title }}</h4>
+{%- if week.verse %}
+  {{ week.verse }}
+{%- else %}
+{{ summary }}
+{%- endif %}
+

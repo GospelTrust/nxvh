@@ -1,0 +1,107 @@
+group-01:
+  title: 'Đắc thắng'
+  segment: ['Phân đoạn 1', 1, 'crown']
+  desc: 'Giờ đắc thắng'
+  rocket-icon: none
+  theme: c1
+  items:
+    - w-1
+    - w-2
+    - w-3
+    - w-4
+    - w-5
+    - w-6
+    - w-7
+
+group-02:
+  title: 'Mật thiết'
+  segment: ['Phân đoạn 2', 2, 'favorite']
+  desc: 'Mật thiết với Chúa'
+  rocket-icon: none
+  theme: c3
+  items:
+    - w-8
+    - w-9
+    - w-10
+    - w-11
+    - w-12
+    - w-13
+    - w-14
+    - w-15
+
+group-03:
+  title: 'Nhập thể'
+  segment: ['Phân đoạn 3', 3, 'man_4']
+  desc: 'Ngôi Lời nhập thể'
+  rocket-icon: none
+  theme: c5
+  items:
+    - w-16
+    - w-17
+    - w-18
+    - w-19
+    - w-20
+
+group-04:
+  title: 'Tái sinh'
+  segment: ['Phân đoạn 4', 4, 'water_drops']
+  desc: 'Cuộc tái sinh'
+  rocket-icon: none
+  theme: c7
+  items:
+    - w-21
+    - w-22
+    - w-23
+    - w-24
+    - w-25
+    - w-26
+    - w-27
+
+group-05:
+  title: 'Nguồn sống'
+  segment: ['Phân đoạn 5', 5, 'vital_signs']
+  desc: 'Bánh của sự sống'
+  rocket-icon: none
+  theme: c9
+  items:
+    - w-28
+    - w-29
+    - w-30
+    - w-31
+    - w-32
+    - w-33
+    - w-34
+    - w-35
+
+group-06:
+  title: 'Ánh sáng'
+  segment: ['Phân đoạn 6', 6, 'star_shine']
+  desc: 'Ánh sáng và Sự sống'
+  rocket-icon: none
+  theme: c11
+  items:
+    - w-36
+    - w-37
+    - w-38
+    - w-39
+    - w-40
+    - w-41
+    - w-42
+    - w-43
+    - w-44
+
+group-07:
+  title: 'Hiệp nhất'
+  segment: ['Phân đoạn 7', 7, 'folded_hands']
+  desc: 'Lời cầu nguyện Thượng phẩm'
+  rocket-icon: none
+  theme: c13
+  items:
+    - w-45
+    - w-46
+    - w-47
+    - w-48
+    - w-49
+    - w-50
+    - w-51
+    - w-52

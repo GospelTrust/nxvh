@@ -1,0 +1,36 @@
+@forward 'default' with (
+  $font-main: 'Roboto',
+  $font-secondary: 'Imbue',
+  $font-mono: 'Inconsolata',
+  $font-special: 'Reem Kufi',
+  $font-tertiary: 'Lexend',
+  $grid-body-height: 300px,
+  $color-theme: #ccff00,
+  $color-card-bg: #f6ffd5,
+  $color-link: #ffc100
+);
+
+.talktext {
+  a {
+    vertical-align: 0.3em;
+    font-size: 0.7em;
+    margin-left: -0.3em;
+    &.index {
+      background-color: transparent !important;
+    }
+  }
+}
+
+h6 {
+  font-family: var(--font-special) !important;
+}
+
+section {
+  blockquote {
+    margin-bottom: 0.5em;
+  }
+}
+
+article.hidden {
+  display: none;
+}
