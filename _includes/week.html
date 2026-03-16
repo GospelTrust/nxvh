@@ -4,9 +4,11 @@
 
 <sub>{{ week.part }}</sub>
 <h4>{{ week.title }}</h4>
+
 {%- if week.verse %}
   {{ week.verse }}
 {%- else %}
 {{ summary }}
 {%- endif %}
 
+{% include bible-ref.html ref=week.part version='both' %}

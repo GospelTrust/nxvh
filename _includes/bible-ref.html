@@ -1,0 +1,108 @@
+{%- assign reference = include.ref | default: '' | strip %}
+{%- if reference == '' and week and week.part %}
+  {%- assign reference = week.part | strip %}
+{%- endif %}
+
+{%- assign range_text = reference | remove: 'Giăng ' | remove: 'Giang ' | remove: 'John ' | strip %}
+{%- if range_text == reference %}
+  {%- assign range_text = reference | split: ' ' | last %}
+{%- endif %}
+
+{%- assign range_parts = range_text | split: '-' %}
+{%- assign start_ref = range_parts[0] | default: '' | strip %}
+{%- assign end_ref_raw = range_parts[1] | default: '' | strip %}
+{%- assign start_parts = start_ref | split: ':' %}
+
+{%- if start_parts.size > 1 %}
+  {%- assign start_chapter = start_parts[0] | plus: 0 %}
+  {%- assign start_verse = start_parts[1] | plus: 0 %}
+
+  {%- assign end_chapter = start_chapter %}
+  {%- assign end_verse = start_verse %}
+
+  {%- if end_ref_raw != '' %}
+    {%- if end_ref_raw contains ':' %}
+      {%- assign end_parts = end_ref_raw | split: ':' %}
+      {%- assign end_chapter = end_parts[0] | plus: 0 %}
+      {%- assign end_verse = end_parts[1] | plus: 0 %}
+    {%- else %}
+      {%- assign end_verse = end_ref_raw | plus: 0 %}
+    {%- endif %}
+  {%- endif %}
+
+  {%- assign version = include.version | default: 'both' %}
+  {%- assign bible_1925 = site.data.john_vie1925.chapters %}
+  {%- assign bible_2010 = site.data.john_vie2010.chapters %}
+
+  <details>
+    <summary>Kinh van theo tuan</summary>
+
+    {%- if version == '1925' or version == 'both' %}
+      <h5>VIE1925</h5>
+      <div class="week-verses week-verses-1925">
+      {%- for chapter_num in (start_chapter..end_chapter) %}
+        {%- assign chapter_key = chapter_num | append: '' %}
+        {%- assign chapter_map = bible_1925[chapter_key] %}
+        {%- if chapter_map == nil %}
+          {%- assign chapter_map = bible_1925[chapter_num] %}
+        {%- endif %}
+        {%- if chapter_map %}
+          {%- assign verse_from = 1 %}
+          {%- assign verse_to = chapter_map | size %}
+          {%- if chapter_num == start_chapter %}
+            {%- assign verse_from = start_verse %}
+          {%- endif %}
+          {%- if chapter_num == end_chapter %}
+            {%- assign verse_to = end_verse %}
+          {%- endif %}
+
+          {%- for verse_num in (verse_from..verse_to) %}
+            {%- assign verse_key = verse_num | append: '' %}
+            {%- assign verse_text = chapter_map[verse_key] %}
+            {%- if verse_text == nil %}
+              {%- assign verse_text = chapter_map[verse_num] %}
+            {%- endif %}
+            {%- if verse_text %}
+              <p><strong>Giang {{ chapter_num }}:{{ verse_num }}</strong> {{ verse_text }}</p>
+            {%- endif %}
+          {%- endfor %}
+        {%- endif %}
+      {%- endfor %}
+      </div>
+    {%- endif %}
+
+    {%- if version == '2010' or version == 'both' %}
+      <h5>VIE2010</h5>
+      <div class="week-verses week-verses-2010">
+      {%- for chapter_num in (start_chapter..end_chapter) %}
+        {%- assign chapter_key = chapter_num | append: '' %}
+        {%- assign chapter_map = bible_2010[chapter_key] %}
+        {%- if chapter_map == nil %}
+          {%- assign chapter_map = bible_2010[chapter_num] %}
+        {%- endif %}
+        {%- if chapter_map %}
+          {%- assign verse_from = 1 %}
+          {%- assign verse_to = chapter_map | size %}
+          {%- if chapter_num == start_chapter %}
+            {%- assign verse_from = start_verse %}
+          {%- endif %}
+          {%- if chapter_num == end_chapter %}
+            {%- assign verse_to = end_verse %}
+          {%- endif %}
+
+          {%- for verse_num in (verse_from..verse_to) %}
+            {%- assign verse_key = verse_num | append: '' %}
+            {%- assign verse_text = chapter_map[verse_key] %}
+            {%- if verse_text == nil %}
+              {%- assign verse_text = chapter_map[verse_num] %}
+            {%- endif %}
+            {%- if verse_text %}
+              <p><strong>Giang {{ chapter_num }}:{{ verse_num }}</strong> {{ verse_text }}</p>
+            {%- endif %}
+          {%- endfor %}
+        {%- endif %}
+      {%- endfor %}
+      </div>
+    {%- endif %}
+  </details>
+{%- endif %}
