@@ -2,12 +2,12 @@
 {%- assign week = site.data.sessions[slug] %}
 {%- assign summary = site.data.summary[slug].summary %}
 
-<sub>{{ week.part }}</sub>
+{%- if week.speaker %}
+<sub>{{ week.speaker }}</sub>
+{%- endif %}
 <h4>{{ week.title }}</h4>
 
-{%- if week.verse %}
-  {{ week.verse }}
-{%- else %}
+{%- if week.verse == nil %}
 {{ summary }}
 {%- endif %}
 

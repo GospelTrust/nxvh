@@ -14,19 +14,20 @@ w-1:
   due: 2026-03-15
   verse: '18:11'
   speaker: 'Phạm Đức Khôi Nguyên'
-  images:
-    - src: https://i.ytimg.com/vi/9h9LS_DYLMQ/maxresdefault.jpg
-      desc: Cái chén và thanh gươm
+  videos:
+    - omI-xL5feJk
 
 w-2:
   header: 'Tuần 2'
   segment: 'group-01'
-  title: 'Đức Chúa Jêsus trước mặt Phi-lát'
+  title: 'Đối diện với lẽ thật: Jêsus & Phi-lát'
   icon: web_stories
   sequence: 2
   part: 'Giăng 18:28-19:16'
   url: 'w-2'
   due: 2026-03-22
+  verse: '18:37'
+  speaker: 'Lê Văn Kiêm'
 
 w-3:
   header: 'Tuần 3'

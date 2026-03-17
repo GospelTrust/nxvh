@@ -10,24 +10,23 @@
   $color-link: #ffc100
 );
 
-.talktext {
-  a {
-    vertical-align: 0.3em;
-    font-size: 0.7em;
-    margin-left: -0.3em;
-    &.index {
-      background-color: transparent !important;
+.week-verses {
+  .verse {
+    td:nth-child(1) {
+      font-family: var(--font-secondary);
+      font-size: 1.3em;
+      text-align: right;
+      white-space: nowrap;
+      width: 40px;
+      sup {
+        font-family: var(--font-mono);
+        color: var(--color-tertiary);
+        padding-left: 2px;
+      }
     }
   }
-}
-
-h6 {
-  font-family: var(--font-special) !important;
-}
-
-section {
-  blockquote {
-    margin-bottom: 0.5em;
+  tr {
+    background-color: inherit! important;
   }
 }
 

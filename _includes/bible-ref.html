@@ -1,12 +1,5 @@
 {%- assign reference = include.ref | default: '' | strip %}
-{%- if reference == '' and week and week.part %}
-  {%- assign reference = week.part | strip %}
-{%- endif %}
-
-{%- assign range_text = reference | remove: 'Giăng ' | remove: 'Giang ' | remove: 'John ' | strip %}
-{%- if range_text == reference %}
-  {%- assign range_text = reference | split: ' ' | last %}
-{%- endif %}
+{%- assign range_text = reference | split: " " | last %}
 
 {%- assign range_parts = range_text | split: '-' %}
 {%- assign start_ref = range_parts[0] | default: '' | strip %}
@@ -35,11 +28,10 @@
   {%- assign bible_2010 = site.data.john_vie2010.chapters %}
 
   <details>
-    <summary>Kinh van theo tuan</summary>
+    <summary>{{ reference }}</summary>
 
     {%- if version == '1925' or version == 'both' %}
-      <h5>VIE1925</h5>
-      <div class="week-verses week-verses-1925">
+      <table class="week-verses week-verses-1925">
       {%- for chapter_num in (start_chapter..end_chapter) %}
         {%- assign chapter_key = chapter_num | append: '' %}
         {%- assign chapter_map = bible_1925[chapter_key] %}
@@ -63,46 +55,21 @@
               {%- assign verse_text = chapter_map[verse_num] %}
             {%- endif %}
             {%- if verse_text %}
-              <p><strong>Giang {{ chapter_num }}:{{ verse_num }}</strong> {{ verse_text }}</p>
+            <tr class="verse">
+              <td>
+                {%- if verse_num == 1 or forloop.index == 1 -%}
+                  {{ chapter_num }}
+                {%- endif -%}
+                <sup>{{ verse_num }}</sup>
+              </td>
+              <td>{{ verse_text }}</td>
+            </tr>
             {%- endif %}
           {%- endfor %}
         {%- endif %}
       {%- endfor %}
-      </div>
+      </table>
     {%- endif %}
 
-    {%- if version == '2010' or version == 'both' %}
-      <h5>VIE2010</h5>
-      <div class="week-verses week-verses-2010">
-      {%- for chapter_num in (start_chapter..end_chapter) %}
-        {%- assign chapter_key = chapter_num | append: '' %}
-        {%- assign chapter_map = bible_2010[chapter_key] %}
-        {%- if chapter_map == nil %}
-          {%- assign chapter_map = bible_2010[chapter_num] %}
-        {%- endif %}
-        {%- if chapter_map %}
-          {%- assign verse_from = 1 %}
-          {%- assign verse_to = chapter_map | size %}
-          {%- if chapter_num == start_chapter %}
-            {%- assign verse_from = start_verse %}
-          {%- endif %}
-          {%- if chapter_num == end_chapter %}
-            {%- assign verse_to = end_verse %}
-          {%- endif %}
-
-          {%- for verse_num in (verse_from..verse_to) %}
-            {%- assign verse_key = verse_num | append: '' %}
-            {%- assign verse_text = chapter_map[verse_key] %}
-            {%- if verse_text == nil %}
-              {%- assign verse_text = chapter_map[verse_num] %}
-            {%- endif %}
-            {%- if verse_text %}
-              <p><strong>Giang {{ chapter_num }}:{{ verse_num }}</strong> {{ verse_text }}</p>
-            {%- endif %}
-          {%- endfor %}
-        {%- endif %}
-      {%- endfor %}
-      </div>
-    {%- endif %}
   </details>
 {%- endif %}
