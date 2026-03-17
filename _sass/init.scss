@@ -30,6 +30,15 @@
   }
 }
 
+strong {
+  color: var(--color-theme);
+  font-weight: normal;
+}
+
+p + p {
+  margin-top: 0;
+}
+
 article.hidden {
   display: none;
 }

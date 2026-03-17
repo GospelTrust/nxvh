@@ -11,9 +11,10 @@ w-1:
   sequence: 1
   part: 'Giăng 18:1-27'
   url: 'w-1'
-  due: 2026-03-15
+  date: 2026-03-15
   verse: '18:11'
   speaker: 'Phạm Đức Khôi Nguyên'
+  done: true
   videos:
     - omI-xL5feJk
 
