@@ -31,8 +31,9 @@
 }
 
 .due.past,
+.due span.icon,
 article > table {
-  display: none;
+  display: none!important;
 }
 
 strong {
