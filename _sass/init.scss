@@ -30,6 +30,11 @@
   }
 }
 
+.due.past,
+article > table {
+  display: none;
+}
+
 strong {
   color: var(--color-theme);
   font-weight: normal;

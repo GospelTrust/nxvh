@@ -2,9 +2,7 @@
 {%- assign week = site.data.sessions[slug] %}
 {%- assign summary = site.data.summary[slug].summary %}
 
-{%- if week.date %}
-<sub>{{ week.date | date: '%B %e, %y' }}</sub> |
-{%- endif %}
+<sub>{{ week.due | date: '%B %e, %y' }}</sub> |
 
 {%- if week.speaker %}
 <sub>{{ week.speaker }}</sub>
