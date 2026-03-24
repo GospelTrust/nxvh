@@ -21,7 +21,7 @@ w-1:
 w-2:
   header: 'Tuần 2'
   segment: 'group-01'
-  title: 'Đối diện với Lẽ Thật: Chúa Jêsus & Phi-lát'
+  title: 'Đối diện với Lẽ Thật'
   icon: web_stories
   sequence: 2
   part: 'Giăng 18:28-19:16'
@@ -29,8 +29,9 @@ w-2:
   due: 2026-03-22
   verse: '18:37'
   speaker: 'Lê Văn Kiêm'
+  done: true
   videos:
-    - r9NWKVP8L7Q
+    - IjQ82tXpDfw
 
 w-3:
   header: 'Tuần 3'
