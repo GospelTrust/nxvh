@@ -36,12 +36,17 @@ w-2:
 w-3:
   header: 'Tuần 3'
   segment: 'group-01'
-  title: 'Sự đóng đinh và chôn cất'
+  title: 'Đã hoàn tất'
   icon: web_stories
   sequence: 3
   part: 'Giăng 19:17-42'
   url: 'w-3'
   due: 2026-03-29
+  verse: '19:30'
+  speaker: 'Phạm Đức Khôi Nguyên'
+  done: true
+  videos:
+    - 3aD7CwJOkGY
 
 w-4:
   header: 'Tuần 4'
