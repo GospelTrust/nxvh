@@ -51,22 +51,29 @@ w-3:
 w-4:
   header: 'Tuần 4'
   segment: 'group-01'
-  title: 'Sự phục sinh và hiện ra cho Ma-ri'
+  title: 'Sự bừng tỉnh của linh nhãn'
   icon: web_stories
   sequence: 4
   part: 'Giăng 20:1-18'
   url: 'w-4'
   due: 2026-04-05
+  verse: '20:17'
+  speaker: 'Phạm Đức Khôi Nguyên'
+  done: true
+  videos:
+    KJzgWpiIAzQ
 
 w-5:
   header: 'Tuần 5'
   segment: 'group-01'
-  title: 'Hiện ra cho các môn đồ và Thô-ma'
+  title: 'Đức tin và nghi ngờ'
   icon: web_stories
   sequence: 5
   part: 'Giăng 20:19-31'
   url: 'w-5'
   due: 2026-04-12
+  verse: '20:31'
+  speaker: 'Lê Văn Kiêm'
 
 w-6:
   header: 'Tuần 6'
