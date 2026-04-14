@@ -74,6 +74,9 @@ w-5:
   due: 2026-04-12
   verse: '20:31'
   speaker: 'Lê Văn Kiêm'
+  done: true
+  videos:
+    dkr93BaodnQ
 
 w-6:
   header: 'Tuần 6'
