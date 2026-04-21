@@ -81,12 +81,16 @@ w-5:
 w-6:
   header: 'Tuần 6'
   segment: 'group-01'
-  title: 'Đánh lưới tại biển Ti-bê-ri-át'
+  title: 'Khi Chúa ẩn mặt'
   icon: web_stories
   sequence: 6
   part: 'Giăng 21:1-14'
   url: 'w-6'
   due: 2026-04-19
+  speaker: 'Phạm Đức Khôi Nguyên'
+  done: true
+  videos:
+    7YfMjOHFTeQ
 
 w-7:
   header: 'Tuần 7'
@@ -96,6 +100,7 @@ w-7:
   sequence: 7
   part: 'Giăng 21:15-25'
   url: 'w-7'
+  speaker: 'Phạm Đức Khôi Nguyên'
   due: 2026-04-26
 
 w-8:
