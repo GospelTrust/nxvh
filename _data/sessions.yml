@@ -87,6 +87,7 @@ w-6:
   part: 'Giăng 21:1-14'
   url: 'w-6'
   due: 2026-04-19
+  verse: '21:12'
   speaker: 'Phạm Đức Khôi Nguyên'
   done: true
   videos:
@@ -95,13 +96,16 @@ w-6:
 w-7:
   header: 'Tuần 7'
   segment: 'group-01'
-  title: 'Sự phục chức cho Phi-e-rơ'
+  title: 'Sự đối xứng của ân điển'
   icon: web_stories
   sequence: 7
   part: 'Giăng 21:15-25'
   url: 'w-7'
+  verse: '21:19'
   speaker: 'Phạm Đức Khôi Nguyên'
   due: 2026-04-26
+  videos:
+    n57eTT5KbV8
 
 w-8:
   header: 'Tuần 8'
