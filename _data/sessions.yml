@@ -118,26 +118,37 @@ w-8:
   due: 2026-05-03
   verse: 'Phi-líp 2:3-4'
   speaker: 'Lê Văn Kiêm'
+  done: true
+  videos:
+    3bfzr0mJMLo
 
 w-9:
   header: 'Tuần 9'
   segment: 'group-02'
-  title: 'Sự phản bội và điều răn mới'
+  title: 'Chậu nước, miếng bánh & tiếng gà'
   icon: web_stories
   sequence: 9
   part: 'Giăng 13:18-38'
   url: 'w-9'
   due: 2026-05-17
+  verse: '13:34'
+  speaker: 'Phạm Đức Khôi Nguyên'
+  done: true
+  videos:
+    9FoB2feaAlk
 
 w-10:
   header: 'Tuần 10'
   segment: 'group-02'
-  title: 'Đường đi, lẽ thật và sự sống'
+  title: 'Kiến trúc sự bảo chứng'
   icon: web_stories
   sequence: 10
   part: 'Giăng 14:1-14'
   url: 'w-10'
   due: 2026-05-24
+  verse: '14:6'
+  done: true
+  speaker: 'Phạm Đức Khôi Nguyên'
 
 w-11:
   header: 'Tuần 11'
