@@ -155,23 +155,32 @@ w-10:
 w-11:
   header: 'Tuần 11'
   segment: 'group-02'
-  title: 'Lời hứa về Đấng Yên ủi'
+  title: 'Chúa Thánh Linh giúp đỡ'
   icon: web_stories
   sequence: 11
   part: 'Giăng 14:15-31'
   url: 'w-11'
   due: 2026-05-31
   speaker: 'Lê Văn Kiêm'
+  verse: '16:7'
+  done: true
+  videos:
+    m3X477ESzTE
 
 w-12:
   header: 'Tuần 12'
   segment: 'group-02'
-  title: 'Gốc nho và nhánh'
+  title: 'Sống mãi trong Chúa'
   icon: web_stories
   sequence: 12
   part: 'Giăng 15:1-11'
   url: 'w-12'
   due: 2026-06-07
+  speaker: 'Lê Văn Kiêm'
+  verse: '15:5'
+  done: true
+  videos:
+    6nI-XC195Zc
 
 w-13:
   header: 'Tuần 13'
