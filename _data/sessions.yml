@@ -185,43 +185,59 @@ w-12:
 w-13:
   header: 'Tuần 13'
   segment: 'group-02'
-  title: 'Tình bạn và sự bắt bớ'
+  title: 'Tột cùng của tình yêu • The Edge of Love'
   icon: web_stories
   sequence: 13
   part: 'Giăng 15:12-27'
   url: 'w-13'
   due: 2026-06-28
+  speaker: 'Phạm Đức Khôi Nguyên'
+  verse: '15:3'
+  done: true
+  videos:
+    6Ju5WVSUov4
 
 w-14:
   header: 'Tuần 14'
   segment: 'group-02'
-  title: 'Công việc của Thánh Linh'
+  title: 'Công việc của Chúa Thánh Linh • The Work of the Spirit'
   icon: web_stories
   sequence: 14
   part: 'Giăng 16:1-15'
   url: 'w-14'
   due: 2026-07-05
+  speaker: 'Lê Văn Kiêm'
+  verse: '16:13'
+  done: true
+  videos:
+    JuVCbisfnuY
 
 w-15:
   header: 'Tuần 15'
   segment: 'group-02'
-  title: 'Nỗi buồn hóa ra vui mừng'
+  title: 'Khi nỗi buồn thành niềm vui • The Other Side of the Cross'
   icon: web_stories
   sequence: 15
   part: 'Giăng 16:16-33'
   url: 'w-15'
   due: 2026-07-12
+  speaker: 'Phạm Đức Khôi Nguyên'
+  verse: '16:20'
+  done: true
+  videos:
+    UlsAyG7L_Bs
 
 w-16:
   header: 'Tuần 16'
   segment: 'group-03'
-  title: 'Ngôi Lời thành xác thịt'
+  title: 'Người đã đến • He Has Come'
   icon: web_stories
   sequence: 16
   part: 'Giăng 1:1-18'
   url: 'w-16'
   due: 2026-07-26
   speaker: 'Lê Văn Kiêm'
+  verse: '1:14'
 
 w-17:
   header: 'Tuần 17'
